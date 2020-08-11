@@ -116,7 +116,7 @@ If a well known architecture was chosen:
 
 Here are five German traffic signs that I found on the web:
 
-![alt text](/new/arrow.png) ![alt text](/new/rightarrow.png) ![alt text](/image.png)
+![alt text](/new/arrow.png) ![alt text](/new/rightarrow.png) ![alt text](/new/image.png)
 ![alt text](/new/speed30.png) ![alt text](/new/truck.png)
 
 The first image might be difficult to classify because ...
