@@ -143,7 +143,7 @@ The code for making predictions on my final model is located in the 11th cell of
 ![softmax](/visualisation/softmax_1.png). 
 ![softmax](/visualisation/softmax_2.png). 
 ![softmax](/visualisation/softmax_3.png). 
-![softmax](/visualisation/softmax_ 4.png). 
+![softmax](/visualisation/softmax_\ 4.png). 
 ![softmax](/visualisation/softmax_5.png). 
 
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
