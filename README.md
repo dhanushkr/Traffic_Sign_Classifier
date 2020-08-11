@@ -20,8 +20,7 @@ The aim of the project is build an Traffic Sign Classifier. The project uses dee
 - [signname.csv](/signnames.csv) - contains labels with thier classID
 - [data](/data): This is a pickled dataset with image sized to 32x32x3
 - [Traffic_Sign_Classifier.ipynb](/Traffic_Sign_Classifier.ipynb): Deep Learning Model
-
-[new](new): Test images taken from web 
+- [new](new): Test images taken from web 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a> 
 [MIT License](/LICENSE)
 
