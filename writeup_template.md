@@ -140,7 +140,11 @@ The model was able to correctly guess 4 of the 5 traffic signs, which gives an a
 
 The code for making predictions on my final model is located in the 11th cell of the Ipython notebook.
 
-![softmax](/visualisation/softmax.png)
+![softmax](/visualisation/softmax_1.png). 
+![softmax](/visualisation/softmax_2.png). 
+![softmax](/visualisation/softmax_3.png). 
+![softmax](/visualisation/softmax_3.png). 
+![softmax](/visualisation/softmax_5.png). 
 
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
 #### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
