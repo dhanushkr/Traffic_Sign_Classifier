@@ -80,6 +80,7 @@ My final model consisted of the following layers:
 | Max pooling	      	| 2x2 stride,  outputs 5x5x32 				|
 | Flatten		|          									|
 | Fully connected		| input 800, output 350    								 |
+| Dropout		| keep_prob 0.8          									|
 | Fully connected		| input 350, output 150    									|
 | Fully connected		| input 150, output 43    									|
 
