@@ -88,7 +88,10 @@ My final model consisted of the following layers:
 | softmax |           |
 #### 3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
 
-To train the model, I used an ....
+The code for training the model is in cell 11,12 and 13.  
+- Epochs = 25
+- Learning Rate - 0.01
+- Batch size =128
 
 #### 4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
@@ -98,17 +101,20 @@ My final model results were:
 
 If an iterative approach was chosen:
 * What was the first architecture that was tried and why was it chosen?
+- The model was adapted from LeNet architecture. IT was able to classify Traffic Signs with an accuracy of 86%.
 * What were some problems with the initial architecture?
+- The architecture was able to solve recognizing handwriting is >98%, whereas the model  does not cross more than 90%
 * How was the architecture adjusted and why was it adjusted? Typical adjustments could include choosing a different model architecture, adding or taking away layers (pooling, dropout, convolution, etc), using an activation function or changing the activation function. One common justification for adjusting an architecture would be due to overfitting or underfitting. A high accuracy on the training set but low accuracy on the validation set indicates over fitting; a low accuracy on both sets indicates under fitting.
+- Filter depth has been increased to capture more content from images like shapes etc. The filter dpeth applied are 16 and 32. 
+- Added Dropout to prevent overfitting which further increased accuracy to 94%
 * Which parameters were tuned? How were they adjusted and why?
+- Epochs = 25
+- Learning Rate - 0.01
+More the epochs, the model can learn further and draw insights, increasing accuracy.
 * What are some of the important design choices and why were they chosen? For example, why might a convolution layer work well with this problem? How might a dropout layer help with creating a successful model?
-
-If a well known architecture was chosen:
-* What architecture was chosen?
-* Why did you believe it would be relevant to the traffic sign application?
-* How does the final model's accuracy on the training, validation and test set provide evidence that the model is working well?
- 
-
+- The images were convertes to grayscale, to reduce the number of parameters, as color is not required to classify signs.
+- Convolution neural network reduces the number of parameters to be used. 
+- I think I can further increase the model accuracy, work on the classifer further, which would make me get familiarised with the dropout, fine tuning of parameters, applying convolutions.
 ### Test a Model on New Images
 
 #### 1. Choose five German traffic signs found on the web and provide them in the report. For each image, discuss what quality or qualities might be difficult to classify.
@@ -145,7 +151,6 @@ The code for making predictions on my final model is located in the 11th cell of
 ![softmax](/visualisation/softmax_4.png). 
 ![softmax](/visualisation/softmax_5.png). 
 
-### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
-#### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
+
 
 
